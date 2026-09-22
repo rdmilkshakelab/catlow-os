@@ -73,6 +73,6 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: catlow-os-iso
-        path: output/catlow-os-iso
+        path: output/catlow-os.iso
         if-no-files-found: error
         retention-days: 7
